@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&family=Noto+Serif:ital,wght@1,600&display=swap');
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #F0F0F0, #3C486B, #3C486B);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  h1 {
+    font-family: 'Noto Serif', serif;
+  }
+
+  h2 {
+    font-family: 'Noto Serif', serif;
+  }
+
+  p {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+  .textosp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 18rem;
+  }
+
+  
